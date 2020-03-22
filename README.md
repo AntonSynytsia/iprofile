@@ -1,3 +1,7 @@
+# My Profile
+
+This front-end app showcases my projects and a little about myself.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
