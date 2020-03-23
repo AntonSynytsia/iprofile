@@ -23,9 +23,9 @@ const projects = [
   {
     name: 'AstroClimb',
     description:
-      'A full-stack web application designed to market my ClothWorks and MSPhysics products. Built with React, Redux, Express, MongoDB/Firestore. Hosted at Google Cloud Platform via Docker. Includes JWT authentication, reCATCHA, and email verification. Note: Repository is private; REST API design is based on devconnectors Udemy course, which is also on my GitHub.',
+      'A full-stack web application designed to market my ClothWorks and MSPhysics products. Built with React, Redux, Express, MongoDB/Firestore. Hosted at Google Cloud Platform via Docker. Includes JWT authentication, reCATCHA, and email verification, and REST API.',
     demoUrl: 'https://astroclimb.appspot.com/',
-    learnMoreUrl: '',
+    learnMoreUrl: 'https://github.com/AntonSynytsia/AstroClimb',
   },
   {
     name: 'Micro Air Vehicle Challenge',
@@ -47,6 +47,27 @@ const projects = [
       'A goal-logger app designed with React Native, following a Udemy course.',
     demoUrl: '',
     learnMoreUrl: 'https://github.com/AntonSynytsia/rn-first-app',
+  },
+  {
+    name: 'DevConnector',
+    description:
+      'Followed a hands-on Udemy course for building a NodeJs, Express, React, Redux, and MongoDB stack web application, with REST API, JWT authentication, and other features. Allows developers to sign up, create posts, comment on posts, and manage their profile.',
+    demoUrl: '',
+    learnMoreUrl: 'https://github.com/AntonSynytsia/devconnector2',
+  },
+  {
+    name: 'MSPhysics',
+    description:
+      'A physics rigid body and joint simulator for SketchUp, based on the NewtonDynamics physics engine.',
+    demoUrl: '',
+    learnMoreUrl: 'https://github.com/AntonSynytsia/MSPhysics',
+  },
+  {
+    name: 'ClothWorks',
+    description:
+      'A commercial cloth simulator with user interface and mesh manipulation tools.',
+    demoUrl: '',
+    learnMoreUrl: 'https://sketchucation.com/plugin/2053-clothworks',
   },
 ];
 export default projects;
