@@ -8,12 +8,10 @@ import Tabs from './layout/Tabs';
 
 const Main = props => {
   return (
-    <Fragment>
-      <Container>
-        <Header />
-        <Tabs />
-      </Container>
-    </Fragment>
+    <Container maxWidth="md">
+      <Header />
+      <Tabs />
+    </Container>
   );
 };
 
