@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 
 import Container from '@material-ui/core/Container';
 
-import Header from './layout/Header';
-import Tabs from './layout/Tabs';
+import PortfolioHeader from './layout/PortfolioHeader';
+import PortfolioTabs from './layout/PortfolioTabs';
 
 const Main = props => {
   return (
     <Container maxWidth="md">
-      <Header />
-      <Tabs />
+      <PortfolioHeader />
+      <PortfolioTabs />
     </Container>
   );
 };
