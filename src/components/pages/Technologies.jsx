@@ -16,6 +16,9 @@ const Technologies = props => {
           <ListItemText primary="React with Redux" />
         </ListItem>
         <ListItem>
+          <ListItemText primary="Angular 6+ (WIP Udemy)" />
+        </ListItem>
+        <ListItem>
           <ListItemText primary="AngularJs" />
         </ListItem>
         <Divider />
@@ -43,7 +46,7 @@ const Technologies = props => {
         </ListItem>
         <Divider />
         <ListItem>
-          <ListItemText primary="React Native" />
+          <ListItemText primary="React Native (WIP Udemy)" />
         </ListItem>
         <Divider />
         <ListItem>
