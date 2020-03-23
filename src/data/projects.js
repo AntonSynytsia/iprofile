@@ -7,18 +7,18 @@ const projects = [
     learnMoreUrl: 'https://github.com/AntonSynytsia/redux-pizza-jump-2020',
   },
   {
-    name: 'JUMP Showcase App',
-    description:
-      'A full-stack web application designed for handling authentication with Express Session; utilizes MySQL and Sequelize. Includes custom designed and animated Carousel, Gallery, and Todo Apps. Note: The demo only shows the front-end.',
-    demoUrl: 'https://antonsynytsia.github.io/jump-react-showcase/index.html',
-    learnMoreUrl: 'https://github.com/AntonSynytsia/showcase-app',
-  },
-  {
     name: 'My Portfolio',
     description:
       "A React and Material UI app, you're currently viewing, designed to showcase my works and a little about myself.",
     demoUrl: 'https://antonsynytsia.github.io/index.html',
     learnMoreUrl: 'https://github.com/AntonSynytsia/iprofile',
+  },
+  {
+    name: 'JUMP Showcase App',
+    description:
+      'A full-stack web application designed for handling authentication with Express Session built as part of JUMP curriculum; utilizes MySQL and Sequelize. Includes custom designed and animated Carousel, Gallery, and Todo Apps. Note: The demo only shows the front-end.',
+    demoUrl: '',
+    learnMoreUrl: 'https://github.com/AntonSynytsia/showcase-app',
   },
   {
     name: 'AstroClimb',
@@ -38,8 +38,15 @@ const projects = [
     name: 'Angular Dev Logger',
     description:
       'A ToDo logger designed with Angular 8, following a Udemy course.',
-    demoUrl: 'https://antonsynytsia.github.io/angular-logger/index.html',
+    demoUrl: '',
     learnMoreUrl: 'https://github.com/AntonSynytsia/clientpanel',
+  },
+  {
+    name: 'React Native Goal Logger',
+    description:
+      'A goal-logger app designed with React Native, following a Udemy course.',
+    demoUrl: '',
+    learnMoreUrl: 'https://github.com/AntonSynytsia/rn-first-app',
   },
 ];
 export default projects;
