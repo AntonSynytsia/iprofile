@@ -42,9 +42,9 @@ const PortfolioHeader = props => {
           color="textSecondary"
           className={classes.aboutText}
         >
-          An efficacious Computer Science graduate of 2019, with studies
-          emphasizing simulation and game programming. Passionate in physics
-          engines, robotics, aerodynamics, and full-stack development.
+          Greetings! I am Anton Synytsia, a Computer Science graduate of 2019. I
+          am passionate about physics engines, robotics, aerodynamics, and
+          full-stack development.
         </Typography>
       </Box>
     </Container>

@@ -3,7 +3,11 @@ import PropTypes from 'prop-types';
 
 import SwipeableViews from 'react-swipeable-views';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import { AppBar, Tabs, Tab, Typography, Box, Paper } from '@material-ui/core';
+import { Tabs, Tab, Typography, Box, Paper } from '@material-ui/core';
+
+import Contact from '../pages/Contact';
+import Projects from '../pages/Projects';
+import Technologies from '../pages/Technologies';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -17,7 +21,7 @@ function TabPanel(props) {
       aria-labelledby={`full-width-tab-${index}`}
       {...other}
     >
-      {value === index && <Box p={3}>{children}</Box>}
+      {value === index && <Box p={2}>{children}</Box>}
     </Typography>
   );
 }
@@ -69,7 +73,7 @@ const PortfolioTabs = props => {
         >
           <Tab label="Projects" {...a11yProps(0)} />
           <Tab label="Technologies" {...a11yProps(1)} />
-          <Tab label="About" {...a11yProps(2)} />
+          <Tab label="Contact" {...a11yProps(2)} />
         </Tabs>
       </Paper>
       <SwipeableViews
@@ -78,13 +82,13 @@ const PortfolioTabs = props => {
         onChangeIndex={handleChangeIndex}
       >
         <TabPanel value={value} index={0} dir={theme.direction}>
-          Item One
+          <Projects />
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
-          Item Two
+          <Technologies />
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
-          Item Three
+          <Contact />
         </TabPanel>
       </SwipeableViews>
     </Box>
