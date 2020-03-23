@@ -27,5 +27,12 @@ const projects = [
     demoUrl: '',
     learnMoreUrl: 'https://github.com/NathanTan/SeniorCapstone',
   },
+  {
+    name: 'My Portfolio',
+    description:
+      "A React and Material UI app, you're currently viewing, designed to showcase my works and a little about myself.",
+    demoUrl: '#',
+    learnMoreUrl: 'https://github.com/AntonSynytsia/iprofile',
+  },
 ];
 export default projects;
